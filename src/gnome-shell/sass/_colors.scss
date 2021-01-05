@@ -48,11 +48,11 @@ $button_bg_color:  if($variant == 'light', rgba(black, 0.1), rgba(white, 0.1));
 $keyboard_bg_color:  if($variant == 'light', $grey_50, fade($grey_700)); // for gnome-shell keyboard
 $alt_keyboard_bg_color:  if($variant == 'light', $grey_300, fade($grey_900)); // for gnome-shell keyboard
 
-// Misc colors
+// Misc colors716799
 
-$primary_color: if($variant == 'light', #4586D8, #4586D8);
-$alt_primary_color: if($variant == 'light', #4586D8, #4586D8);
-$accent_color: if($variant == 'light', #4586D8, #4586D8);
+$primary_color: if($variant == 'light', #a186cf, #a186cf);
+$alt_primary_color: if($variant == 'light', #a186cf, #a186cf);
+$accent_color: if($variant == 'light', #a186cf, #a186cf);
 
 $panel_bg: if($variant == 'light', #000000, #000000);
 $panel_bg_color: if($trans == 'true', rgba($panel_bg, 0.5), $panel_bg);

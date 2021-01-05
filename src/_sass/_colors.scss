@@ -46,10 +46,10 @@
 // Basic colors
 //
 
-$primary-dark:                          #1A73E8;
-$primary-light:                         #3281ea;
+$primary-dark:                          #5A5475;
+$primary-light:                         #a186cf;
 $primary:                               if($variant == 'light', $primary-dark, $primary-light);
-$drop_target_color:                     #FF7043;
+$drop_target_color:                     #AD5877;
 
 $background:                            if($variant == 'light', #F2F2F2, #212121);
 $surface:                               if($variant == 'light', #FFFFFF, #3C3C3C);
@@ -76,9 +76,9 @@ $panel-solid:                           if($topbar == 'dark', #1F1F1F, #CCCCCC);
 $link:                                  $primary;
 $link-visited:                          if($variant == 'light', $purple-500, $purple-200);
 
-$warning:                               if($variant == 'light', #F4B400, #FDD633);
-$error:                                 if($variant == 'light', #D93025, #F28B82);
-$success:                               if($variant == 'light', #0F9D58, #81C995);
+$warning:                               if($variant == 'light', #f5e400, #fff352);
+$error:                                 if($variant == 'light', #ff2a1f, #FF857F);
+$success:                               if($variant == 'light', #00f576, #C2FFDF);
 
 $suggested:                             $primary;
 $destructive:                           $error;

@@ -1171,7 +1171,7 @@ $mdborder_color: if($variant == 'light', transparent, rgba($white, 0.15));
   // box-shadow: $shadow_6;
   border-radius: $circular_radius;
   margin: $container_padding / 2;
-  margin-bottom: 0;
+  // margin-bottom: 0;
 
   &:overview,
   &.unlock-screen,
