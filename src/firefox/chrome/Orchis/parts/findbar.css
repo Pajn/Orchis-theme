@@ -37,13 +37,11 @@ hbox[anonid="findbar-textbox-wrapper"] {
 	border-radius: 100px !important;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1500px) {
 	hbox[anonid="findbar-textbox-wrapper"] {
 		position: relative;
 		right: 0;
 		transform: none;
-	}
-	.findbar-find-status, .found-matches {
-		order: 0;
+		order: -2;
 	}
 }

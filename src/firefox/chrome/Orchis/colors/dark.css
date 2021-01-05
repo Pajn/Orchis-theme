@@ -9,7 +9,7 @@
   :root {
 	/* Browser area before a page starts loading */
 	--gnome-browser-before-load-background: #333333;
-	--theme-primary-color: #8AB4F8;
+	--theme-primary-color: #a186cf;
 
 	/* Toolbars */
 	--gnome-toolbar-background: #383838;
@@ -64,11 +64,11 @@
 	--gnome-inactive-button-background: transparent;
 	--gnome-inactive-button-border-color: transparent;
 	--gnome-inactive-button-box-shadow: inset 0 1px rgba(255, 255, 255, 0.0);
-	--gnome-button-suggested-action-background: linear-gradient(to top, #155099 2px, #15539e);
+	--gnome-button-suggested-action-background: #5A5475;
 	--gnome-button-suggested-action-border-color: #0f3b71;
 	--gnome-button-suggested-action-border-accent-color: #092444;;
 	--gnome-button-suggested-action-box-shadow: inset 0 1px rgba(255, 255, 255, 0.08);
-	--gnome-button-suggested-action-hover-background: linear-gradient(to top, #155099, #1655a2 1px);
+	--gnome-button-suggested-action-hover-background: #5A5475;
 	--gnome-button-suggested-action-active-background: #103e75;
 	--gnome-button-suggested-action-active-border-color: #0f3b71;
 	--gnome-button-suggested-action-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0.05);
@@ -91,8 +91,8 @@
 	--gnome-inactive-urlbar-box-shadow: none;
 	--gnome-inactive-urlbar-color: #d6d6d6;
 	--gnome-focused-urlbar-background: #282828;
-	--gnome-focused-urlbar-border-color: #8AB4F8;
-	--gnome-private-urlbar-background: #8AB4F8;
+	--gnome-focused-urlbar-border-color: #a186cf;
+	--gnome-private-urlbar-background: #a186cf;
 
 	/* Tabs */
 	--gnome-tabbar-tab-background: transparent;
@@ -121,7 +121,7 @@
 	--gnome-switch-background: rgba(255, 255, 255, 0.25);
 	--gnome-switch-border-color: transparent;
 	--gnome-switch-slider-background: #2E2E2E;
-	--gnome-switch-slider-active-background: #3281EA;
+	--gnome-switch-slider-active-background: #AD5877;
 	--gnome-switch-slider-border-color: transparent;
 	--gnome-switch-slider-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
 	--gnome-switch-slider-hover-box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.10);

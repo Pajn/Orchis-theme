@@ -15,11 +15,11 @@
 }
 
 /* Remove icons from the main context menu */
-#contentAreaContextMenu menuitem image,
-#contentAreaContextMenu menu image {
+#contentAreaContextMenu menuitem hbox.menu-iconic-left image,
+#contentAreaContextMenu menu hbox.menu-iconic-left image {
 	visibility: hidden;
 }
-#contentAreaContextMenu menugroup menuitem image {
+#contentAreaContextMenu menugroup menuitem hbox.menu-iconic-left image {
 	visibility: visible;
 }
 
